@@ -8,7 +8,7 @@
                       "description":  "Counts tool calls. No file names, paths or content.",
                       "action":  {
                                      "type":  "command",
-                                     "command":  "python \"C:\\Users\\mrvic\\.kironomics\\report.py\" count tool",
+                                     "command":  "py \"C:\\Users\\thila\\.kironomics\\report.py\" count tool",
                                      "timeout":  5
                                  }
                   },
@@ -18,7 +18,7 @@
                       "description":  "Counts prompts and stamps session start. No prompt text.",
                       "action":  {
                                      "type":  "command",
-                                     "command":  "python \"C:\\Users\\mrvic\\.kironomics\\report.py\" count prompt",
+                                     "command":  "py \"C:\\Users\\thila\\.kironomics\\report.py\" count prompt",
                                      "timeout":  5
                                  }
                   },
@@ -28,7 +28,7 @@
                       "description":  "Reports session counts and Kiro credit usage.",
                       "action":  {
                                      "type":  "command",
-                                     "command":  "python \"C:\\Users\\mrvic\\.kironomics\\report.py\" send",
+                                     "command":  "py \"C:\\Users\\thila\\.kironomics\\report.py\" send",
                                      "timeout":  15
                                  }
                   }
