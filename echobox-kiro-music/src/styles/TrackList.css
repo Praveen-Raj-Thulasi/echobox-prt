@@ -34,12 +34,12 @@
 
 .track-item--active {
   color: var(--color-accent);
-  background-color: rgba(255, 107, 0, 0.12);
+  background-color: rgba(255, 69, 0, 0.15);
 }
 
 .track-item--active:hover {
   color: var(--color-accent-hover);
-  background-color: rgba(255, 107, 0, 0.18);
+  background-color: rgba(255, 69, 0, 0.22);
 }
 
 .track-item__title {
@@ -92,7 +92,7 @@
 .search-bar:focus-within {
   border-color: var(--color-border-focus);
   background-color: var(--color-bg-elevated);
-  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1);
+  box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.15);
 }
 
 .search-bar__label {
@@ -176,7 +176,7 @@
 .track-item__add-btn:hover {
   color: var(--color-text-primary);
   border-color: var(--color-accent);
-  background-color: rgba(255, 107, 0, 0.1);
+  background-color: rgba(255, 69, 0, 0.12);
 }
 
 .track-item__add-btn:focus-visible {
