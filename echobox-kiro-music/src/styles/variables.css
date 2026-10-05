@@ -2,20 +2,20 @@
 
 :root {
   /* ── Background layers ── */
-  --color-bg-base:      #0f0f13;   /* app background */
-  --color-bg-surface:   #1a1a24;   /* cards, sidebar, bars */
-  --color-bg-elevated:  #24243a;   /* hover states, active rows */
-  --color-bg-overlay:   #2e2e48;   /* modals, tooltips */
+  --color-bg-base:      #1A0F00;   /* app background */
+  --color-bg-surface:   #2A1800;   /* cards, sidebar, bars */
+  --color-bg-elevated:  #3A2200;   /* hover states, active rows */
+  --color-bg-overlay:   #4A2D00;   /* modals, tooltips */
 
   /* ── Text ── */
-  --color-text-primary:   #e8e8f0;  /* headings, track titles */
-  --color-text-secondary: #9898b0;  /* artists, meta, placeholders */
-  --color-text-muted:     #5a5a72;  /* disabled, de-emphasised */
+  --color-text-primary:   #FFFFFF;  /* headings, track titles */
+  --color-text-secondary: #FFCC99;  /* artists, meta, placeholders */
+  --color-text-muted:     #996633;  /* disabled, de-emphasised */
 
   /* ── Accent / interactive ── */
-  --color-accent:         #7c6af7;  /* primary accent (purple) */
-  --color-accent-hover:   #9484ff;
-  --color-accent-active:  #6354e0;
+  --color-accent:         #FF6B00;  /* primary accent (orange) */
+  --color-accent-hover:   #FF9A3C;
+  --color-accent-active:  #E55A00;
 
   /* ── Feedback ── */
   --color-error:   #ff5a5f;
@@ -23,8 +23,8 @@
   --color-warning: #f9a825;
 
   /* ── Borders ── */
-  --color-border:       #2a2a40;
-  --color-border-focus: var(--color-accent);
+  --color-border:       #4A2D00;
+  --color-border-focus: #FF6B00;
 
   /* ── Spacing scale ── */
   --space-1:  0.25rem;   /*  4px */

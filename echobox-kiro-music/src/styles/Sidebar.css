@@ -43,7 +43,7 @@
 
 .playlist-item__play:hover {
   color: var(--color-accent);
-  background-color: rgba(124, 106, 247, 0.12);
+  background-color: rgba(255, 107, 0, 0.12);
 }
 
 .playlist-item__delete:hover {

@@ -4,6 +4,7 @@ import { CLEAR_ERROR } from '../../context/playerReducer';
 import { TrackInfo } from './TrackInfo';
 import { PlaybackControls } from './PlaybackControls';
 import { VolumeControl } from './VolumeControl';
+import { Equalizer } from './Equalizer';
 import '../../styles/NowPlayingBar.css';
 
 /**
@@ -39,6 +40,9 @@ export function NowPlayingBar() {
 
       {/* Left: current track title + artist */}
       <div className="now-playing-bar__section now-playing-bar__section--left">
+        {state.currentTrack && (
+          <Equalizer isPlaying={state.status === 'playing'} />
+        )}
         <TrackInfo />
       </div>
 
